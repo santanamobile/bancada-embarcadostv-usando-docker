@@ -1,0 +1,29 @@
+esphome:
+  name: demo02
+
+esp32:
+  board: esp32-s2-saola-1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "wifinetwork"
+  password: "wifipassword"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Demo02 Fallback Hotspot"
+    password: "SsOl1R2yngcf"
+
+captive_portal:
+    
