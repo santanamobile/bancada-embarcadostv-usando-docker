@@ -1,0 +1,31 @@
+#
+# DigitalOcean API Slugs 
+# https://slugs.do-api.dev/
+#
+# Regional Availability Matrix 
+# https://docs.digitalocean.com/products/platform/availability-matrix/
+#
+region = "nyc1"
+droplet_count = 1
+# Available sizes to me
+# Basic Droplet (to test setup/configure/deploy)
+# Ram: 512Mb, CPU: 1, Disk: 10Gb
+# droplet_size = "s-1vcpu-512mb-10gb"
+# Ram: 1Gb, CPU: 1, Disk: 25Gb
+# droplet_size = "s-1vcpu-1gb"
+# Ram: 16Gb, CPU: 8, Disk: 320Gb
+# droplet_size = "s-8vcpu-16gb"
+# droplet_size = "s-8vcpu-16gb-amd"
+# droplet_size = "s-8vcpu-16gb-intel"
+##### Memory-Optimized
+# 4vCPUs / 32Gb RAM
+# droplet_size = "m-4vcpu-32gb"
+##### CPU-Optimized
+# 4vCPUs / 8Gb RAM
+# droplet_size = "c-4-intel"
+##### Memory-Optimized - 16vCPUs / 128Gb RAM
+# droplet_size = "m-16vcpu-128gb"
+# CPU-Optimized    - 32vCPUs / 64Gb RAM
+# droplet_size = "C-32"
+ssh_key     = "ssh-key-name"
+do_token    = "YOUR_DIGITALOCEAN_API_TOKEN"
