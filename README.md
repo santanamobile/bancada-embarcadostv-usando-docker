@@ -1,6 +1,6 @@
 # Usando docker para montar ambiente de desenvolvimento
 
-Este repositório contem as demonstrações apresentadas no episódio 08 (2023-05-12)
+Este repositório contem as demonstrações apresentadas no episódio 07 (2023-05-12)
 
 [Link do episódio](https://www.youtube.com/live/4ZYx-0j3Dug)
 
